@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import Meny from "./components/Meny";
 import Slider from "./components/Carousel";
 import TabComp from "./components/Tabs";
@@ -17,7 +17,7 @@ function App() {
         <InfoBox></InfoBox>
 
         <TabComp></TabComp>
-        <AccordionComp></AccordionComp>
+        <AccordionComp ></AccordionComp>
       </main>
 
       <Form></Form>
