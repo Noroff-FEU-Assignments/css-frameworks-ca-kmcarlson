@@ -11,6 +11,12 @@
   color: #e92569 !important;
 }
 
+.search {
+  color: #FFF !important;
+  background-color: #e92569 !important;
+  border-radius: 0 !important;
+}
+
 
 // Slider
 .carousel-indicators {
@@ -31,8 +37,7 @@
 
 // Accordion
 .accordionHeader {
-  
- 
+
   button{
       color: #E83875 !important;
    background-color: #FFF !important;
@@ -41,6 +46,12 @@
 
 }
 
+.accordionBody {
+  background-color: #EFEFEF;
+}
+.accordionImg {
+  padding: 2rem;
+}
 
 // Conact
 
