@@ -5,6 +5,9 @@ import Slider  from './components/Carousel';
 import TabComp  from './components/Tabs';
 import AccordionComp  from './components/Accordion';
 import InfoBox  from './components/InfoBox';
+import Footer  from './components/Footer';
+
+
 
 
 
@@ -20,9 +23,11 @@ function App() {
       <Slider></Slider>
       <InfoBox></InfoBox>
 
-      </main>
+     
       <TabComp></TabComp>
       <AccordionComp></AccordionComp>
+ </main>
+      <Footer></Footer>
 
 
       <header className="App-header">
