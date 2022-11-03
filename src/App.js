@@ -1,11 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
 import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
+import Meny from './components/Meny';
+import Slider  from './components/Carousel';
+
+
 
 function App() {
   return (
+
     <div className="App">
+      <Meny></Meny>
+      <main>
+      <Slider></Slider>
+      <h3>HALLO </h3>
+      <p>noe info her</p>
+      </main>
       <header className="App-header">
+
+
+
+
+
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -25,8 +43,12 @@ function App() {
           Learn React
         </a>
       </header>
+ 
+   
+
     </div>
   );
 }
 
 export default App;
+
