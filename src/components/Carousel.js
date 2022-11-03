@@ -2,11 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function slider() {
   return (
-    <Carousel>
+    <Carousel controls={false}>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src={require('../images/carousel/carousel-1.jpg')}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ function slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src={require('../images/carousel/carousel-2.jpg')}
           alt="Second slide"
         />
 
@@ -29,7 +29,7 @@ function slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src={require('../images/carousel/carousel-3.jpg')}
           alt="Third slide"
         />
 

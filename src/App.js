@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
 import Meny from './components/Meny';
 import Slider  from './components/Carousel';
+import TabComp  from './components/Tabs';
+import AccordionComp  from './components/Accordion';
+import InfoBox  from './components/InfoBox';
+
+
+
 
 
 
@@ -14,9 +18,13 @@ function App() {
       <Meny></Meny>
       <main>
       <Slider></Slider>
-      <h3>HALLO </h3>
-      <p>noe info her</p>
+      <InfoBox></InfoBox>
+
       </main>
+      <TabComp></TabComp>
+      <AccordionComp></AccordionComp>
+
+
       <header className="App-header">
 
 
@@ -29,11 +37,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
 
         </p>
-        <Alert variant="danger">
-          This is a  alert with{' '}
-          <Alert.Link href="#">an example link</Alert.Link>. Give it a click if
-          you like.
-        </Alert>
+
         <a
           className="App-link"
           href="https://reactjs.org"
