@@ -8,7 +8,7 @@ function Meny() {
     return (
       <Navbar bg="light" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
+          <Navbar.Brand href="#" className='slug'>The YAY Company</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav

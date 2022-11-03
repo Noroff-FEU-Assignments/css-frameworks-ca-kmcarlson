@@ -2,7 +2,57 @@
 
 .App {
   text-align: center;
+  background-color: #EFEFEF;
 }
+
+
+// nav
+.slug {
+  color: #e92569 !important;
+}
+
+
+// Slider
+.carousel-indicators {
+  button: {
+      height: 2rem;
+  }
+
+}
+
+.infobox {
+  text-align: center;
+  h3 {
+    color: #E83875;
+    margin-top: 2rem;
+  }
+
+}
+
+// Accordion
+.accordionHeader {
+  
+ 
+  button{
+      color: #E83875 !important;
+   background-color: #FFF !important;
+  
+  }
+
+}
+
+
+// Conact
+
+.small-contact-form {
+  button {
+    background-color: red !important;
+  }
+  text-align: left;
+}
+
+
+// Fun react logo
 
 .App-logo {
   height: 40vmin;
@@ -37,11 +87,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.small-contact-form {
-  button {
-    background-color: red !important;
-  }
-  text-align: left;
 }

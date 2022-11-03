@@ -16,11 +16,11 @@ function App() {
         <Slider></Slider>
         <InfoBox></InfoBox>
 
-        <TabComp></TabComp>
+        {/* <TabComp></TabComp> */}
         <AccordionComp ></AccordionComp>
       </main>
 
-      <Form></Form>
+      {/* <Form></Form> */}
 
       <Footer></Footer>
 
