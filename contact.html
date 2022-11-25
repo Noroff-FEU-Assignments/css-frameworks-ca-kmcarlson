@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <script
+      src="https://kit.fontawesome.com/075c648cb7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  </head>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="slug">The YAY Company</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" id="go" type="submit">
+              Go
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <main class="p-4 mx-4 w-100">
+      <h1 class="d-none d-lg-flex">Submit your details</h1>
+
+      <div class="d-flex flex-column-reverse flex-lg-row align-items-start">
+        <form class="p-4">
+      <h1 class="d-flex d-lg-none">Submit your details</h1>
+
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+
+          <label for="website" for="website">Website</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text d-none d-lg-flex" id="inputGroupPrepend">https://</span>
+            </div>
+            <input type="text" class="form-control" id="website" aria-describedby="inputGroupPrepend">
+        
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <label>
+            <input id="checkbox" type="checkbox" value="" />
+            Allow us to sell your personal details to whomever we want
+          </label>
+          <br />
+          <button type="submit" class="btn w-100 btn-secondary">Submit</button>
+        </form>
+      
+
+        <div class="mx-5 p-4">
+          <div>
+            <i class="fas fa-envelope"></i
+            ><span class="mx-2">hello@yay.com </span>
+          </div>
+          <div>
+            <i class="fas fa-phone"></i><span class="mx-2">123 456 7890</span>
+          </div>
+          <div class="d-flex align-items-start">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="d-flex flex-column">
+              <span class="mx-2">123 Some Street</span>
+              <span class="mx-2">Somewhere</span>
+              <span class="mx-2">Some City</span>
+              <span class="mx-2">10000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="mt-5">
+      <div class="d-flex justify-content-between bg-light p-4 flex-wrap">
+        <div class="d-flex d-lg-block col-12 col-lg-1 justify-content-center mb-4">
+        <i class="fab fa-vimeo-v fa-2x mx-1"></i>
+        <i class="fab fa-youtube fa-2x mx-1"></i>
+        </div>
+        <span><a mail:to="hello@yay.com">hello@yay.com</a></span>
+        <span>Copyright 2020</span>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #e92569 !important;
+}
+
+body {
+  background-color: #E9E9E9;
+}
+
+main {
+  margin-top: 100px !important;
+}
+
+p {
+  color: black;
+}
+
+.tab-pane {
+  background-color: white;
+}
+
+#home-tab, #profile-tab, #contact-tab {
+  color: #e92569;
+}
+
+#slug {
+  color: #e92569 !important;
+}
+
+.active {
+  color: black !important;
+}
+
+.navbar {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+#article-btn {
+  border: 0 !important;
+  background: linear-gradient(90deg, #e92569 90%, #767676 10%) !important;
+}
+
+.page-item {
+  border: 1px #e92569 solid !important;
+}
+.page-item .page-link {
+  color: #e92569;
+}
+.page-item .selected {
+  color: white !important;
+  background-color: #e92569 !important;
+}
+
+.carousel-indicators button {
+  height: 30px !important;
+}
+.carousel-indicators .active {
+  background-color: #e92569;
+}
+
+form {
+  background: #EFEFEF;
+}
+
+#go {
+  background-color: #e92569 !important;
+  color: white !important;
+  border: 0 !important;
+}
+
+.accordion-button {
+  color: #e92569;
+}
+
+.accordion-button::after {
+  background-image: initial;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: initial;
+}/*# sourceMappingURL=style.css.map */
